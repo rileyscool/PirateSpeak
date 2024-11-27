@@ -1,6 +1,6 @@
 # PirateSpeak
 
-PirateSpeak is a simple tool that converts regular text into the playful and adventurous language of pirates. Transform your boring sentences into swashbuckling pirate phrases instantly!
+PirateSpeak is a simple tool that converts regular text into the playful language of pirates. Transform your boring sentences into pirate phrases instantly!
 
 ## Features
 
