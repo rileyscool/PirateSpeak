@@ -21,15 +21,15 @@ app.get('/*', (req, res) =>{
 })
 
 app.post('/pirate', async (req, res) => {
-    /* let content = req.params.content
+     let content = req.params.content
     const completion = await openai.chat.completions.create({
         model: gptModel,
         messages: [
             {"role": "user", "content": "convert the text into pirate talk while keeping the word count around the same or less and using pirate words. "}
         ]
     });
-    */
-    res.send({"text": /* completion.messages[0].content || */ "Arrr, I be not knowin' what to say here, so I’ll just do this, matey!"});
+
+    res.send({"text":  completion.messages[0].content });
 })
 
 app.listen(3000);
